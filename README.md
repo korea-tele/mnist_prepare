@@ -9,4 +9,5 @@ Download and convert MNIST database to CSV format for Neural Network classificat
 ## How to use it
 
 $ pip install -r requirements.txt
+
 $ python2 mnist_prepare.py
