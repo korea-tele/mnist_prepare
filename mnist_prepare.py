@@ -75,7 +75,7 @@ if not os.path.isfile(test_labels_gz):
         get_file('http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz',test_labels_gz)
         gunzip_it(test_labels_gz, test_labels)
 
-convert(test_images, test_labels, "mnist_test.csv",10000)
+convert(test_images, test_labels, "mnist_test.csv")
 organize('mnist_test.csv','test.csv',1)
 
 print "train database"
